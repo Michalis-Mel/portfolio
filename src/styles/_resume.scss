@@ -1,0 +1,100 @@
+.Resume {
+  color: white;
+  font-family: "Oxygen", sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Merienda", cursive;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.resume-left-col {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3b4f64,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3b4f64,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #292929;
+  border-radius: 5%;
+  height: 100%;
+
+  .img {
+    margin-left: 10%;
+    img {
+      height: 400px;
+      padding-bottom: 3rem;
+    }
+  }
+
+  .resumeInfo {
+    margin-top: 1.5rem;
+    padding-left: 4rem;
+  }
+  a {
+    text-decoration: none;
+    color: #041236;
+    font-size: 1.5rem;
+  }
+
+  .hr1 {
+    border-top: 3px solid #041236;
+    width: 60%;
+  }
+  .hr2 {
+    border-top: 3px solid #041236;
+    width: 50%;
+  }
+  .hr3 {
+    border-top: 3px solid #041236;
+    width: 40%;
+  }
+  .hr4 {
+    border-top: 3px solid #041236;
+    width: 30%;
+  }
+  .hr5 {
+    border-top: 3px solid #041236;
+    width: 20%;
+  }
+}
+
+.resume-right-col {
+  padding: 2rem;
+
+  .progress {
+    position: absolute;
+    margin-left: 15rem;
+  }
+  .year {
+    padding-left: 5rem;
+    margin-top: 2rem;
+  }
+
+  hr {
+    border-top: 2px solid #d7a05e;
+    width: 90%;
+    margin: 4rem;
+  }
+
+  .img {
+    text-align: center;
+    img {
+      margin-top: 2rem;
+      width: 25rem;
+    }
+  }
+}

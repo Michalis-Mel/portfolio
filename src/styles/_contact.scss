@@ -1,0 +1,86 @@
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+
+  .contact-grid {
+    position: fixed;
+    top: 2rem;
+    left: -1.5rem;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: black;
+
+    .col-left {
+      background-image: url(../images/bg-sky.png);
+      background-position: top;
+      background-size: cover;
+      animation: slideRight 3s ease forwards;
+    }
+
+    .col-right {
+      animation: slideLeft 3s ease forwards;
+    }
+
+    h2 {
+      margin-top: 8rem;
+      font-family: "Anton", sans-serif;
+    }
+
+    .moon-img {
+      margin: 12rem;
+      height: 200px;
+    }
+
+    p {
+      font-family: "Oxygen", sans-serif;
+      color: black;
+      font-size: 1.6rem;
+      font-weight: bold;
+      width: 75%;
+      margin: auto;
+
+      span {
+        font-size: 4rem;
+        color: #012957;
+        display: inline-block;
+        margin-bottom: 5rem;
+      }
+    }
+
+    hr {
+      border-top: 5px dotted black;
+      width: 50%;
+      margin: auto;
+    }
+
+    .contact-list {
+      .list-item-content {
+        font-size: 2.5rem;
+        font-family: "Anton", sans-serif;
+        margin-left: 15rem;
+        margin-top: 3rem;
+
+        :hover {
+          cursor: pointer;
+          color: #002258;
+        }
+
+        i {
+          font-size: 3rem;
+          padding-right: 3rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
