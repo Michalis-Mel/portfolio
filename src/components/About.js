@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import guy1 from "../images/guy with laptop.jpg";
 import guy2 from "../images/guy with laptop2.jpg";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -40,6 +41,7 @@ const About = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

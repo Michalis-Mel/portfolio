@@ -16,15 +16,16 @@
 }
 
 .resume-left-col {
+  animation: slideRight 3s ease forwards;
   background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
-    #3b4f64,
+    #445a70,
     #2980b9
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
-    #3b4f64,
+    #445a70,
     #2980b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -73,7 +74,20 @@
 }
 
 .resume-right-col {
+  animation: slideLeft 3s ease forwards;
   padding: 2rem;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+    &:hover {
+      transition: all 0.5s ease-in-out;
+      color: #d7a05e;
+      transform: scale(1.2);
+    }
+  }
 
   .progress {
     position: absolute;

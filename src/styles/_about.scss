@@ -11,9 +11,10 @@ body {
   justify-content: center;
   align-items: center;
   .introduction {
+    animation: fadeIn 3s ease forwards;
     width: 50%;
     h3 {
-      font-family: "Anton";
+      font-family: "Merienda", cursive;
       font-size: 4rem;
       text-align: center;
       margin-bottom: 2rem;

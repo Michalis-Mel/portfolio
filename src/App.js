@@ -1,4 +1,4 @@
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Navigation, Content } from "react-mdl";
 import { Link } from "react-router-dom";
 
 //import styles
@@ -37,20 +37,7 @@ function App() {
               </Link>
             </Navigation>
           </Header>
-          <Drawer
-            title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                My Portfolio
-              </Link>
-            }
-          >
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/about">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-          </Drawer>
+
           <Content>
             <div className="page-content" />
             <Main />

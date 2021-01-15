@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
-import { Link } from "react-router-dom";
 
 //import image
 import me from "../images/me.jpg";
@@ -13,6 +12,7 @@ import resume from "./data/oduseas.pdf";
 import Education from "./resume_components/Education";
 import Experience from "./resume_components/Experience";
 import Skills from "./resume_components/Skills";
+import Footer from "./Footer";
 
 //import data
 import education from "./data/education";
@@ -24,7 +24,7 @@ const Resume = () => {
         <Cell className="resume-left-col" col={4}>
           <div className="resumeInfo">
             <div className="img">
-              <img src={me} alt="my image" />
+              <img src={me} alt="" />
             </div>
             <h2>Michalis Meliopoulos</h2>
             <h4>Full Stack Web Developer</h4>
@@ -43,9 +43,9 @@ const Resume = () => {
             <hr className="hr5" />
             <p>
               You can download my resume {""}
-              <a href={resume} download="resume.pdf">
+              {/* <a href={resume} download="resume.pdf">
                 here.
-              </a>
+              </a> */}
             </p>
           </div>
         </Cell>
@@ -57,6 +57,7 @@ const Resume = () => {
             <Education
               school={place.school}
               description={place.description}
+              link={place.link}
               grade={place.grade}
               year={place.year}
               key={place.id}
@@ -105,6 +106,7 @@ const Resume = () => {
           </div>
         </Cell>
       </Grid>
+      <Footer />
     </div>
   );
 };
