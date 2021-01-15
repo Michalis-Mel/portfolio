@@ -2,6 +2,8 @@
   color: white;
   font-family: "Oxygen", sans-serif;
   animation: fadeIn 2s ease-in-out;
+  margin-bottom: 4rem;
+
   .projects__navbar {
     font-family: "Merienda", cursive;
     font-size: 1.6rem;
@@ -30,6 +32,7 @@
 
     .projectCard {
       padding: 1rem;
+
       background-image: url(../images/gif.gif);
       background-size: cover;
       background-position: center;
