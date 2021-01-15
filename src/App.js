@@ -16,23 +16,23 @@ function App() {
           <Header
             className="header-color"
             title={
-              <Link to="/">
+              <Link to="/portfolio">
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link className="link" to="/resume">
+              <Link className="link" to="/portfolio/resume">
                 Resume
               </Link>
-              <Link className="link" to="/about">
+              <Link className="link" to="/portfolio/about">
                 About Me
               </Link>
-              <Link className="link" to="/projects">
+              <Link className="link" to="/portfolio/projects">
                 Projects
               </Link>
-              <Link className="link" to="/contact">
+              <Link className="link" to="/portfolio/contact">
                 Contact
               </Link>
             </Navigation>
