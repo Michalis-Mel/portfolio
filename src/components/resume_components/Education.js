@@ -9,7 +9,7 @@ const Education = ({ id, school, link, description, grade, year }) => {
       </Cell>
       <Cell col={7}>
         {link ? (
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer">
             <h4 className="school">{school}</h4>
           </a>
         ) : (
