@@ -16,7 +16,7 @@ function App() {
           <Header
             className="header-color"
             title={
-              <Link to="/">
+              <Link to="/portfolio">
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             }

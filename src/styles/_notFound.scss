@@ -1,0 +1,23 @@
+.bounds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+
+  h1 {
+    font-family: "Merienda", sans-serif;
+    color: white;
+  }
+  img {
+    height: 50vh;
+    border-radius: 30%;
+    margin-top: 2rem;
+  }
+  p {
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
