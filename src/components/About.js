@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <section className="info">
         <div className="introduction">
           <p>

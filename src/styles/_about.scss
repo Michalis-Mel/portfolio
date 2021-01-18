@@ -1,5 +1,10 @@
 body {
   background-color: rgb(41, 41, 41);
+  z-index: -1;
+}
+
+.about {
+  z-index: 100;
 }
 .info,
 .moreinfo {
@@ -11,7 +16,6 @@ body {
   justify-content: center;
   align-items: center;
   .introduction {
-    animation: fadeIn 3s ease forwards;
     width: 50%;
     h3 {
       font-family: "Merienda", cursive;
@@ -39,14 +43,15 @@ body {
 .text-img {
   width: 50rem;
   height: 60rem;
-  animation: fadeIn 3s ease forwards;
   margin-bottom: 3rem;
 }
 
 .info {
   margin-top: 4rem;
+  animation: slideRight 3s ease forwards;
 }
 .moreinfo {
   margin-top: 7rem;
   margin-bottom: 3rem;
+  animation: slideLeft 3s ease forwards;
 }

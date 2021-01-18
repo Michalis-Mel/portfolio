@@ -17,6 +17,14 @@
   }
 
   .logo {
+    margin-left: -4rem;
     width: 10rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .header-color {
+    opacity: 0;
+    pointer-events: none;
   }
 }

@@ -4,10 +4,8 @@ import { Grid, Cell } from "react-mdl";
 const Education = ({ id, school, link, description, grade, year }) => {
   return (
     <Grid>
-      <Cell col={4}>
-        <p className="year">{year}</p>
-      </Cell>
       <Cell col={7}>
+        <p className="year">{year}</p>
         {link ? (
           <a href={link} target="_blank" rel="noreferrer">
             <h4 className="school">{school}</h4>

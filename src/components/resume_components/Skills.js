@@ -6,6 +6,7 @@ const Skills = ({ skill, progress }) => {
     <Grid>
       <Cell col={12}>
         <div
+          className="progressBox"
           style={{
             display: "flex",
             alignItems: "center",

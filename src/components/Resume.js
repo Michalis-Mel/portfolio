@@ -6,7 +6,7 @@ import me from "../images/me.jpg";
 import army from "../images/army.jpg";
 
 //import resume
-import resume from "./data/oduseas.pdf";
+import resume from "./data/resume.pdf";
 
 //import components
 import Education from "./resume_components/Education";
@@ -39,13 +39,19 @@ const Resume = () => {
             <p>25hs Martiou, Katerini, Greece</p>
             <hr className="hr4" />
             <h5>My Website</h5>
-            <p>www.mixalismeliopoulos.com</p>
+            <a
+              href="https://michalis-mel.github.io/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://michalis-mel.github.io/portfolio
+            </a>
             <hr className="hr5" />
             <p>
               You can download my resume {""}
-              {/* <a href={resume} download="resume.pdf">
+              <a href={resume} download="resume.pdf">
                 here.
-              </a> */}
+              </a>
             </p>
           </div>
         </Cell>
