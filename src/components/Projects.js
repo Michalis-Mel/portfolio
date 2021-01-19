@@ -56,7 +56,7 @@ const Projects = () => {
           className={active === "JavaScript" && "projects__navbar-active"}
           onClick={() => handleFilterCategory("JavaScript")}
         >
-          Vanilla JavaScript
+          Vanilla-JavaScript
         </div>
         <div
           className={active === "React" && "projects__navbar-active"}

@@ -10,6 +10,7 @@
     margin: 3rem auto;
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     cursor: pointer;
 
@@ -79,6 +80,40 @@
             transition: all 0.3s ease-in-out;
             transform: scale(1.3);
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .projects__navbar {
+    div {
+      padding: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .row {
+    .projectCard {
+      width: 80vw !important;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .row {
+    .projectCard {
+      h4 {
+        font-size: 1.7rem !important;
+      }
+      p {
+        font-size: 1.2rem !important;
+      }
+      .links {
+        a {
+          font-size: 1.5rem !important;
+          line-height: 1.7rem;
+          padding-top: 1rem;
         }
       }
     }

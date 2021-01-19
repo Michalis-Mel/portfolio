@@ -150,10 +150,19 @@
   }
 }
 @media screen and (max-width: 1080px) {
+  .mdl-grid {
+    padding: 0px !important;
+  }
   .Resume {
+    width: 100vw;
     .resume-left-col {
-      min-width: 80vw !important;
-      margin-left: 8vw;
+      border-radius: 0;
+      border-bottom-left-radius: 10%;
+      border-bottom-right-radius: 10%;
+      width: 100vw !important;
+      padding: 0rem;
+      margin: 0rem;
+
       .img {
         margin-left: -10rem !important;
         text-align: center;
@@ -199,9 +208,6 @@
   .Resume {
     width: 100vw;
     .resume-left-col {
-      width: 100vw !important;
-      padding: 0rem;
-      margin: 0rem;
       .img {
         img {
           width: 60vw !important;
