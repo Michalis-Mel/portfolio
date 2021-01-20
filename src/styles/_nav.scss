@@ -12,13 +12,27 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   .link {
-    font-size: 1.2rem;
+    font-family: "Merienda", sans-serif;
+    font-size: 1.3rem;
     margin-left: 3rem;
+    &:hover {
+      transition: all 0.5s ease-in-out;
+      transform: scale(1.3);
+      color: rgb(0, 0, 0) !important;
+    }
+  }
+  .mdl-navigation__link {
+    background-color: transparent !important;
+    border: none !important;
   }
 
   .logo {
     width: 10rem;
     margin-left: -3rem;
+    &:hover {
+      transition: all 0.5s ease-in-out;
+      transform: scale(1.15);
+    }
   }
 }
 
@@ -55,25 +69,40 @@
     }
     img {
       margin-top: 3rem;
-
       width: 20vw !important;
+
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.2);
+      }
     }
     .link {
       font-family: "Merienda", sans-serif;
       color: white !important;
       font-size: 2.2vw;
       margin-top: 3rem !important;
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.1);
+        color: rgb(80, 127, 255) !important;
+      }
     }
+
     .fa {
       color: white;
-
+      cursor: pointer;
       background-color: transparent;
       font-size: 5vw;
       margin-top: 5rem;
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.1);
+        color: rgb(79, 126, 255) !important;
+      }
     }
     .mdl-navigation__link {
-      background-color: transparent;
-      border: none;
+      background-color: transparent !important;
+      border: none !important;
     }
   }
 }

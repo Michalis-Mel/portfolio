@@ -74,7 +74,7 @@ const data_projects = [
     name: "SQL Library Manager",
     image: database,
     description:
-      "A web application that includes pages to list, add, update, and delete books using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize.",
+      "An application that  list, add, update, and delete books using JavaScript, Node.js, Express, Pug, and SQL ORM Sequelize.",
     deployed_url: "",
     github_url: "https://github.com/Michalis-Mel/TechDegree-Project-8",
     category: ["JavaScript", "Express", "SQL"],
@@ -84,7 +84,7 @@ const data_projects = [
     name: "School Database Manager",
     image: books,
     description:
-      "A Full Stack React App with Rest API to provide a way for users to administer a school database containing information about courses. In addition, the project will require users to create an account and sign in to make changes to the database.",
+      "A Full Stack App with Rest API to provide a way for users to administer a school database with information about courses. ",
     deployed_url: "",
     github_url: "https://github.com/Michalis-Mel/TechDegree-Project-10",
     category: ["React"],
