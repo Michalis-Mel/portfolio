@@ -14,8 +14,6 @@ const Contact = () => {
           <img className="moon-img" src={moon} alt="moon" />
           <p>
             <span>Get in Touch.</span>
-            <br />I am at your disposal to anwear any questions you might have
-            or if you want us to cooperate. Feel free to contact me in any way!
           </p>
         </Cell>
         <Cell className="col-right" col={6}>

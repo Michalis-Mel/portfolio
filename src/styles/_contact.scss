@@ -155,11 +155,23 @@
   }
 }
 
+@media screen and (max-width: 571px) {
+  .col-right {
+    .list-item-content {
+      margin: 0rem !important;
+    }
+  }
+}
+@media screen and (max-width: 479px) {
+  .col-right {
+    .list-item-content {
+      margin: auto 1rem !important;
+    }
+  }
+}
 @media screen and (max-width: 332px) {
   .col-left {
     p {
-      font-size: 1.5rem !important;
-      margin-top: -5rem !important;
       span {
         font-size: 3rem !important;
         line-height: 3rem !important;

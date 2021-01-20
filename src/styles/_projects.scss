@@ -100,6 +100,11 @@
     }
   }
 }
+@media screen and (max-width: 529px) {
+  .projects__navbar {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 400px) {
   .row {
     .projectCard {
