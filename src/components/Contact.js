@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 import moon from "../images/blue moon.png";
@@ -7,6 +8,7 @@ const Contact = () => {
   const handleEmailMe = () => {
     window.open("mailto:mixalismeliop@gmail.com");
   };
+
   return (
     <div className="contact-body">
       <Grid className="contact-grid">

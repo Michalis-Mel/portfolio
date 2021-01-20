@@ -24,7 +24,6 @@ function App() {
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             }
-            scroll
           >
             <Navigation>
               <Link className="link" to="/resume">
@@ -48,7 +47,6 @@ function App() {
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             }
-            scroll
           >
             <Navigation>
               <Link className="link" to="/resume" onClick={() => hideToggle()}>
@@ -68,7 +66,7 @@ function App() {
                 Contact
               </Link>
               <button onClick={() => hideToggle()}>
-                <i class="fa fa-times" aria-hidden="true"></i>
+                <i className="fa fa-times" aria-hidden="true"></i>
               </button>
             </Navigation>
           </Drawer>

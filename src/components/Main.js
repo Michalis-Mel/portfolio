@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 //import components
@@ -9,20 +9,15 @@ import Projects from "./Projects";
 import Resume from "./Resume";
 import NotFound from "./NotFound";
 
-const Main = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  return (
-    <Switch>
-      <Route path="/portfolio" component={Landing}></Route>
-      <Route path="/about" component={About}></Route>
-      <Route path="/contact" component={Contact}></Route>
-      <Route path="/resume" component={Resume}></Route>
-      <Route path="/projects" component={Projects}></Route>
-      <Route component={NotFound} />
-    </Switch>
-  );
-};
+const Main = () => (
+  <Switch>
+    <Route path="/portfolio" component={Landing}></Route>
+    <Route path="/about" component={About}></Route>
+    <Route path="/contact" component={Contact}></Route>
+    <Route path="/resume" component={Resume}></Route>
+    <Route path="/projects" component={Projects}></Route>
+    <Route component={NotFound} />
+  </Switch>
+);
 
 export default Main;

@@ -44,7 +44,7 @@ const Projects = () => {
     >
       <div className="projects__navbar">
         <div
-          className={active === "All" && "projects__navbar-active"}
+          className={active === "All" ? "projects__navbar-active" : undefined}
           onClick={() => {
             setProjects(data_projects);
             setActive("All");
@@ -53,25 +53,29 @@ const Projects = () => {
           All
         </div>
         <div
-          className={active === "JavaScript" && "projects__navbar-active"}
+          className={
+            active === "JavaScript" ? "projects__navbar-active" : undefined
+          }
           onClick={() => handleFilterCategory("JavaScript")}
         >
           Vanilla-JavaScript
         </div>
         <div
-          className={active === "React" && "projects__navbar-active"}
+          className={active === "React" ? "projects__navbar-active" : undefined}
           onClick={() => handleFilterCategory("React")}
         >
           React
         </div>
         <div
-          className={active === "Redux" && "projects__navbar-active"}
+          className={active === "Redux" ? "projects__navbar-active" : undefined}
           onClick={() => handleFilterCategory("Redux")}
         >
           Redux
         </div>
         <div
-          className={active === "Express" && "projects__navbar-active"}
+          className={
+            active === "Express" ? "projects__navbar-active" : undefined
+          }
           onClick={() => handleFilterCategory("Express")}
         >
           Express
