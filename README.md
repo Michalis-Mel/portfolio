@@ -8,7 +8,7 @@ You can view my portfolio at [www.michalis-mel.com](https://michalis-mel.github.
 
 ### Front End
 
-`HTML` `CSS` `Sass` `JavaScript` `React` `Redux` `Axios` `JQuery` `Bootstrap` `Styled Components` `Framer Motion` `Scroll Magic` `Barba js` `JavaScript` `React` `Redux` `Axios` `JQuery` `Bootstrap` `Styled Components` `Framer Motion`
+`HTML` `CSS` `Sass` `JavaScript` `React` `Redux` `Axios` `JQuery` `Bootstrap` `Styled Components` `Framer Motion` `Scroll Magic` `Barba js`
 
 ### Back End
 

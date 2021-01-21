@@ -3,7 +3,6 @@ import { Grid, Cell } from "react-mdl";
 
 //import image
 import me from "../images/me.jpg";
-import army from "../images/army.jpg";
 
 //import resume
 import resume from "./data/resume.pdf";
@@ -107,9 +106,6 @@ const Resume = () => {
             efforts of the Greek army to repel the flows of illegal immigrants
             at the borders of Evros.
           </p>
-          <div className="img">
-            <img src={army} alt="army" />
-          </div>
         </Cell>
       </Grid>
       <Footer />
