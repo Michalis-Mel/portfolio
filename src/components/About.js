@@ -7,7 +7,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <div className="about">
-      <section className="info">
+      <section className="info info1">
         <div className="introduction">
           <p>
             Hello, my name is Michalis Meliopoulos and i’m a full-stack web
@@ -37,7 +37,7 @@ const About = () => {
             in the entire frontend and backend spectrum and working on ambitious
             projects with positive people.
             <br />
-            You can download my resume <Link to="/">here</Link> .
+            You can download my resume <Link to="/resume">here</Link> .
           </p>
         </div>
       </section>

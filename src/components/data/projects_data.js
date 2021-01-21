@@ -72,7 +72,7 @@ const data_projects = [
   {
     id: 6,
     name: "SQL Library Manager",
-    image: database,
+    image: books,
     description:
       "An application that  list, add, update, and delete books using JavaScript, Node.js, Express, Pug, and SQL ORM Sequelize.",
     deployed_url: "",
@@ -82,7 +82,7 @@ const data_projects = [
   {
     id: 7,
     name: "School Database Manager",
-    image: books,
+    image: database,
     description:
       "A Full Stack App with Rest API to provide a way for users to administer a school database with information about courses. ",
     deployed_url: "",

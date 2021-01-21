@@ -5,10 +5,13 @@ import reportWebVitals from "./reportWebVitals";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from "./components/ScrollTop";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <ScrollToTop>
+      <App />
+    </ScrollToTop>
   </BrowserRouter>,
 
   document.getElementById("root")

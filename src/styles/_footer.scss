@@ -3,20 +3,21 @@
   background-color: #101018f8;
   color: #fff;
   font-size: 1.5em;
+  margin: auto;
   min-height: 7vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: 0;
+  bottom: -4rem;
 }
 
 @media screen and (max-width: 1025px) {
   .footer-style {
     font-size: 1.2rem;
     position: relative;
-    margin-bottom: -10rem;
+    margin-bottom: 0rem;
   }
 }

@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Meliopoulos Michalis(Mr. Mel) - Full Stack Web Developer
+
+I am a Full Stack Web Developer currently located in Katerini, Greece. This is my personal portfolio website that showcases my experience, education, recent projects, technical skill stack, contact information, and a little bit more about me.
+
+You can view my portfolio at [www.michalis-mel.com](https://michalis-mel.github.io/portfolio/).
+
+## Techinical Skill Stack
+
+### Front End
+
+`HTML` `CSS` `Sass` `JavaScript` `React` `Redux` `Axios` `JQuery` `Bootstrap` `Styled Components` `Framer Motion` `Scroll Magic` `Barba js` `JavaScript` `React` `Redux` `Axios` `JQuery` `Bootstrap` `Styled Components` `Framer Motion`
+
+### Back End
+
+`Node.js` `Nodemon` `Express` `SQLite` `JSON Web Tokens` `Sessions & Cookies`
+
+### Tools & Deployment
+
+`CLI` `Git` `Github` `NPM` `Yarn` `Netlify`
+
+### Office
+
+`Microsoft Office` `Word` `Excel` `PowerPoint` `Adobe`
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
