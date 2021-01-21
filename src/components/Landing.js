@@ -16,9 +16,8 @@ const Landing = () => {
               <span>HTML/CSS/Sass</span> | <span>Bootstrap </span> |
               <span>JavaScript</span> |<span>NodeJS</span> |
               <span> Express </span> |<span>React</span> |<span>Redux</span> |
-              <span>Sequalize</span>
+              <span> Git/Github </span> |<span> Sqlite </span>
             </p>
-
             <div className="social-links">
               {/* Github Link */}
               <a

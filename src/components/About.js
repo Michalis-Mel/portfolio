@@ -10,12 +10,14 @@ const About = () => {
       <section className="info info1">
         <div className="introduction">
           <p>
-            Hello, my name is Michalis Meliopoulos and i’m a full-stack web
-            developer based in Katerini, Greece. I enjoy building everything
+            Hello, my name is Michalis Meliopoulos and i am based in the
+            beautiful Katerini, Greece. I amm a Full-stack web developer with an
+            aptitude for the Frond-end spectrum. I enjoy building everything
             from small business sites to rich interactive web apps, and with
             every line of code, i strive to give you the result you desire. I am
-            currently a freelancer and i am at your disposal to anwear any
-            questions you might have or if you want us to cooperate. <br />
+            currently a freelancer aiming to become a member of a large company,
+            and i am at your disposal to anwear any questions you might have or
+            if you want us to cooperate. <br />
             Feel free to <Link to="/contact">contact</Link> me!
           </p>
         </div>
@@ -30,12 +32,12 @@ const About = () => {
           <p>
             Well-organised person, problem solver, independent employee with
             high attention to detail. In love with Greece and space, fan of
-            sports, gaming, TV series and food! I am 24 years old and i have a
+            sports, gaming, TV series and food! I am 25 years old and i have a
             bachelor degree in production and management engineering (Democritus
             University of Thrace). I trully love computer science and I devoted
-            2 years learning on my own several programming languages. Interested
-            in the entire frontend and backend spectrum and working on ambitious
-            projects with positive people.
+            3 years in total as a self-taught web developer and in the end as a
+            student at Team Treehouse. Interested on working with positive
+            people on ambitious projects.
             <br />
             You can download my resume <Link to="/resume">here</Link> .
           </p>
