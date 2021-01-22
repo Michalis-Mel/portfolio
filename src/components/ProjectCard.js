@@ -1,6 +1,14 @@
 import React from "react";
 const ProjectCard = ({
-  project: { id, name, image, description, deployed_url, github_url },
+  project: {
+    id,
+    name,
+    image,
+    description,
+    technologies,
+    deployed_url,
+    github_url,
+  },
 }) => {
   return (
     <div className="projectCard">
@@ -8,6 +16,8 @@ const ProjectCard = ({
         <h4>{name}</h4>
 
         <p>{description}</p>
+
+        <p>Technologies Used: {technologies}</p>
 
         {image ? <img src={image} alt="" /> : ""}
 
