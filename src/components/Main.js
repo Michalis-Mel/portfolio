@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 //import components
 import About from "./About";
@@ -11,6 +11,7 @@ import NotFound from "./NotFound";
 
 const Main = () => (
   <Switch>
+    <Redirect exact from="/" to="/portfolio" />
     <Route path="/portfolio" component={Landing}></Route>
     <Route path="/about" component={About}></Route>
     <Route path="/contact" component={Contact}></Route>

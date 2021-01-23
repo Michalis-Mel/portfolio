@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import data_projects from "./data/projects_data";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
 import Footer from "./Footer";
 const Projects = () => {
+  useEffect(() => {
+    document.querySelector(".mdl-layout__content").scrollTop = 0;
+  }, []);
+
   const [projects, setProjects] = useState(data_projects);
   const [active, setActive] = useState("All");
 

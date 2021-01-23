@@ -12,8 +12,8 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   .link {
-    font-family: "Merienda", sans-serif;
-    font-size: 1.3rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.35rem;
     margin-left: 3rem;
     &:hover {
       transition: all 0.5s ease-in-out;
@@ -41,6 +41,11 @@
   pointer-events: none;
 }
 
+.drawer {
+  opacity: 0;
+  pointer-events: none;
+}
+
 @media screen and (max-width: 1080px) {
   .header-color {
     opacity: 0;
@@ -57,6 +62,8 @@
     }
   }
   .drawer {
+    opacity: 1;
+    pointer-events: all;
     width: 15rem !important;
     text-align: center;
     background-color: #292929 !important;
@@ -77,7 +84,7 @@
       }
     }
     .link {
-      font-family: "Merienda", sans-serif;
+      font-family: "Ubuntu", sans-serif;
       color: white !important;
       font-size: 2.2vw;
       margin-top: 3rem !important;
@@ -92,8 +99,8 @@
       color: white;
       cursor: pointer;
       background-color: transparent;
-      font-size: 5vw;
-      margin-top: 3rem;
+      font-size: 4vw;
+      margin-top: 3.5rem;
       &:hover {
         transition: all 0.5s ease-in-out;
         transform: scale(1.1);
@@ -115,6 +122,9 @@
     .link {
       font-size: 1.5rem;
     }
+    .fa {
+      font-size: 2.6rem !important;
+    }
   }
 }
 @media screen and (max-width: 450px) {
@@ -125,6 +135,9 @@
     .link {
       margin-top: 2rem !important;
       font-size: 24px !important;
+    }
+    .fa {
+      font-size: 2.3rem !important;
     }
   }
 }

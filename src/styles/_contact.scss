@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   justify-content: center;
+  overflow-x: hidden;
 
   .contact-grid {
     position: fixed;
@@ -32,7 +33,7 @@
 
     h2 {
       margin-top: 8rem;
-      font-family: "Anton", sans-serif;
+      font-family: "Ubuntu", sans-serif;
     }
 
     .moon-img {
@@ -41,7 +42,7 @@
     }
 
     p {
-      font-family: "Oxygen", sans-serif;
+      font-family: "Ubuntu", sans-serif;
       color: black;
       font-size: 1.6rem;
       font-weight: bold;
@@ -65,7 +66,7 @@
     .contact-list {
       .list-item-content {
         font-size: 2.5rem;
-        font-family: "Anton", sans-serif;
+        font-family: "Ubuntu", sans-serif;
         margin-left: 15rem;
         margin-top: 3rem;
 
@@ -143,7 +144,7 @@
     }
   }
   .col-left {
-    min-width: 120vw !important;
+    min-width: 110vw !important;
     min-height: 100vh !important;
     margin: 0rem !important;
 
@@ -172,7 +173,11 @@
 @media screen and (max-width: 479px) {
   .col-right {
     .list-item-content {
-      margin: auto 1rem !important;
+      margin: auto 3rem !important;
+      font-size: 1.2rem !important;
+      i {
+        font-size: 2.3rem !important;
+      }
     }
   }
 }

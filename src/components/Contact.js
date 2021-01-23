@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 import moon from "../images/blue moon.png";
 
 const Contact = () => {
+  useEffect(() => {
+    document.querySelector(".mdl-layout__content").scrollTop = 0;
+  }, []);
+
   const handleEmailMe = () => {
     window.open("mailto:mixalismeliop@gmail.com");
   };

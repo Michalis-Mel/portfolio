@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import guy1 from "../images/guy with laptop.jpg";
 import guy2 from "../images/guy with laptop2.jpg";
 import Footer from "./Footer";
 
 const About = () => {
+  useEffect(() => {
+    document.querySelector(".mdl-layout__content").scrollTop = 0;
+  }, []);
   return (
     <div className="about">
       <section className="info info1">

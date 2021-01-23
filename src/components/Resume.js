@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Grid, Cell } from "react-mdl";
 
 //import image
@@ -17,6 +17,9 @@ import Footer from "./Footer";
 import education from "./data/education";
 import experience from "./data/experience";
 const Resume = () => {
+  useEffect(() => {
+    document.querySelector(".mdl-layout__content").scrollTop = 0;
+  }, []);
   return (
     <div className="Resume">
       <Grid>
