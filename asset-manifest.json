@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8efca517.chunk.css",
+    "main.css": "/portfolio/static/css/main.dc819ed2.chunk.css",
     "main.js": "/portfolio/static/js/main.9f54a67f.chunk.js",
     "main.js.map": "/portfolio/static/js/main.9f54a67f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.083a5c3f.js",
@@ -12,12 +12,12 @@
     "static/js/3.fe1fe576.chunk.js.map": "/portfolio/static/js/3.fe1fe576.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.86fbdad3.chunk.css.map": "/portfolio/static/css/2.86fbdad3.chunk.css.map",
-    "static/css/main.8efca517.chunk.css.map": "/portfolio/static/css/main.8efca517.chunk.css.map",
+    "static/css/main.dc819ed2.chunk.css.map": "/portfolio/static/css/main.dc819ed2.chunk.css.map",
     "static/js/2.1df96a59.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1df96a59.chunk.js.LICENSE.txt",
     "static/media/Coloors.bdb7875a.jpg": "/portfolio/static/media/Coloors.bdb7875a.jpg",
+    "static/media/app.scss": "/portfolio/static/media/sky.f3e020a2.jpg",
     "static/media/Photon.1739b4bc.jpg": "/portfolio/static/media/Photon.1739b4bc.jpg",
     "static/media/beatmaker.44076017.jpg": "/portfolio/static/media/beatmaker.44076017.jpg",
-    "static/media/app.scss": "/portfolio/static/media/sky.f3e020a2.jpg",
     "static/media/blue moon.b718a8c3.png": "/portfolio/static/media/blue moon.b718a8c3.png",
     "static/media/books.690023cb.jpg": "/portfolio/static/media/books.690023cb.jpg",
     "static/media/capture.6436d9de.jpg": "/portfolio/static/media/capture.6436d9de.jpg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.083a5c3f.js",
     "static/css/2.86fbdad3.chunk.css",
     "static/js/2.1df96a59.chunk.js",
-    "static/css/main.8efca517.chunk.css",
+    "static/css/main.dc819ed2.chunk.css",
     "static/js/main.9f54a67f.chunk.js"
   ]
 }
