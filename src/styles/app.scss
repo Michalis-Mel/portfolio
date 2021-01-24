@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "oneday";
+  src: url(./fonts/ONEDAY.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100%);

@@ -4,11 +4,15 @@
   margin-bottom: 3rem;
 
   h1,
-  h2,
+  h2 {
+    font-family: "oneday", sans-serif;
+    font-weight: 600;
+  }
+
   h3,
   h4,
   h5 {
-    font-family: "Ubuntu", cursive;
+    font-family: "Ubuntu", sans-serif;
   }
 
   p {
@@ -46,6 +50,7 @@
       padding-left: 4rem;
     }
     a {
+      font-family: "Oxygen", sans-serif;
       text-decoration: none;
       color: #041236;
       font-size: 1.4rem;

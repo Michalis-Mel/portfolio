@@ -21,6 +21,13 @@
     overflow-y: auto;
 
     .col-left {
+      p {
+        span {
+          font-family: "oneday", sans-serif;
+          font-weight: 800;
+        }
+      }
+
       background-image: url(../images/bg-sky.png);
       background-position: top;
       background-size: cover;
