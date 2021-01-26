@@ -50,7 +50,7 @@ const Resume = () => {
             </a>
             <hr className="hr5" />
             <p>
-              You can download my resume {""}
+              You can download my full resume {""}
               <a href={resume} download="resume.pdf">
                 here.
               </a>

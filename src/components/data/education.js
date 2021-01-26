@@ -10,13 +10,6 @@ const education = [
   },
   {
     id: 2,
-    school: "1st General High School of Katerini, Greece ",
-    description: "",
-    grade: "18.0/20",
-    year: "2011 - 2014",
-  },
-  {
-    id: 3,
     school: "The Treehouse Academy",
     link: "https://teamtreehouse.com/tracks/full-stack-javascript",
     description: "The Full Stack JavaScript Web Development course",
@@ -24,12 +17,19 @@ const education = [
     year: "2020 - 2021",
   },
   {
-    id: 4,
+    id: 3,
     school: "DevelopedByEd",
     link: "https://developedbyed.com/",
     description: "The React-Redux-JavaScript-CSS-HTML courses ",
     grade: "",
     year: "2020",
+  },
+  {
+    id: 4,
+    school: "1st General High School of Katerini, Greece ",
+    description: "",
+    grade: "18.0/20",
+    year: "2011 - 2014",
   },
 ];
 
