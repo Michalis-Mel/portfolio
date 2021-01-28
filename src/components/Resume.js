@@ -3,9 +3,12 @@ import { Grid, Cell } from "react-mdl";
 
 //import image
 import me from "../images/me.jpg";
+import greek from "../images/greece.png";
+import english from "../images/united-kingdom.png";
 
 //import resume
-import resume from "./data/resume.pdf";
+import resume_Gr from "./data/resume_Gr.pdf";
+import resume_En from "./data/resume_En.pdf";
 
 //import components
 import Education from "./resume_components/Education";
@@ -49,10 +52,13 @@ const Resume = () => {
               https://michalis-mel.github.io/portfolio
             </a>
             <hr className="hr5" />
+            <p>You can download my full resume here:</p>
             <p>
-              You can download my full resume {""}
-              <a href={resume} download="resume.pdf">
-                here.
+              <a href={resume_Gr} download="resume_Gr.pdf">
+                <img className="flag" src={greek} alt="greek flag" />
+              </a>
+              <a href={resume_En} download="resume_En.pdf">
+                <img className="flag" src={english} alt="England's flag" />
               </a>
             </p>
           </div>
